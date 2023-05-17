@@ -1,0 +1,68 @@
+body{
+background-color: rgb(235, 236, 245);
+background-image: url("background.png");
+background-attachment: fixed;
+background-position-y: bottom;
+background-position-x: 75%;
+background-repeat: no-repeat;
+}
+
+#body{
+    width: 50%;
+    float: left;
+ 
+}
+#map{
+    width: 50%;
+    float: right;
+    margin-top: 60px;
+}
+
+.Bay {
+    background-color: grey;
+    width: 50px;
+    height: 70px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    position: right;
+    
+}
+
+.row {
+    display: flex;
+    position: right;
+}
+
+.Carpark-container {
+    margin: 20px;
+
+}
+
+.Carpark-container select{
+    background-color: white;
+    border: 0;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.Bay.Occupied {
+    background-color: rgb(164, 243, 36);
+    
+}
+
+.Bay.Handicapped {
+    background-color: rgb(26, 107, 228);
+   
+}
+
+.showcase li{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 0 10px;
+}
+
